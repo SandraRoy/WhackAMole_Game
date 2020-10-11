@@ -4,7 +4,7 @@ This game allows the player to attempts and whack the moles on a grid. The game 
 This is the constructor of the class. It takes in the number of attempts allowed for the player and the dimensions of the grid.
 
 ## place():
-This is a boolean function whih traverses the grid and returns true if a given location has a mole.
+This is a boolean function which traverses the grid and returns true if a given location has a mole.
 ## whack():
 This function is called each time a user wants to guess amd whack a mole. It places a 'W' on the location if the player whacked a mole, and places an asterix if the location had no mole.
 ## printGridToUSer():
